@@ -4,6 +4,11 @@ import Intro from "./components/Intro.vue";
 import Clicker from "./components/Clicker.vue";
 import Joke from "./components/Joke.vue";
 import NavBar from "./components/NavBar.vue";
+import Writer from "./components/Writer.vue";
+import ConditionalRendering from "./components/ConditionalRendering.vue";
+import ToDoList from "./components/ToDoList.vue";
+import Mounted from "./components/Mounted.vue";
+import Watcher from "./components/Watcher.vue";
 
 function greeting(name) {
   alert("Greetings " + name);
@@ -36,6 +41,11 @@ export default {
   <Suspense>
     <Joke />
   </Suspense>
+  <Writer />
+  <ConditionalRendering />
+  <ToDoList />
+  <Watcher />
+
   <!-- <button @click="incrementCounter">Increment counter {{ counter }}</button> -->
 </template>
 
